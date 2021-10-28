@@ -1,6 +1,7 @@
 body {
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .header, .footer, .sec-1 {
@@ -68,6 +69,12 @@ body {
   text-align: center;
 }
 
+.sec-2 h2 {
+  font-size: 36px;
+  font-weight: 1000;
+  color: #1f2937;
+}
+
 .middle-links {
   display: flex;
   flex-direction: row;
@@ -78,9 +85,31 @@ body {
   flex-direction: column;
   margin: 0 auto;
   flex-wrap: nowrap;
-  width: 200px;
+  width: 250px;
+}
+
+.img-blocks img {
+  border: 3px solid #3882F6;
+  border-radius: 15px;
 }
 
 .img-blocks p {
   text-align: center;
+}
+
+.sec-3 {
+  background-color: #E5E7EB;
+}
+
+.quote {
+  margin: auto;
+  width: 60%;
+  font-size: 36px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.quote-name {
+  margin-left: auto;
+  width: 30%;
 }
